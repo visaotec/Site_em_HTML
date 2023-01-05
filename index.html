@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!--https://www.w3schools.com/bootstrap4/bootstrap_icons.asp -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/personalizado.css">
+        <title>Visaotec</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Visaotec</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample07">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#descricao">Descrição</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="jumbotron text-center descr-top">
+            <h2><a name="inicio" class="link"></a></h2>
+            <div class="container">
+                <h1 class="display-4 mb-4">Temos a solução que a sua empresa precisa!</h1>
+                <p class="lead mb-4">Aliquam erat volutpat. Nam facilisis scelerisque velit, sit amet imperdiet est mollis nec.</p>
+                <p>
+                    <a href="#contato" class="btn btn-primary btn-lg">MAIS DETALHES</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="jumbotron servicos">
+            <h2><a name="servicos" class="link"></a></h2>
+            <div class="container text-center">
+                <h2 class="display-4">Serviços</h2>
+                <p class="lead pb-4">Nam facilisis scelerisque velit, sit amet imperdiet est mollis nec.</p>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="rounded-circle circulo centralizar shadow border border-info">
+                            <i class="fas fa-hammer"></i>
+                        </div>
+                        <h2 class="mt-4 mb-4">Serviço um</h2>
+                        <p> Aenean sit amet nisl ac ex lobortis condimentum. Aliquam sed ex id felis volutpat lobortis.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="rounded-circle circulo centralizar shadow border border-info">
+                            <i class="fas fa-drafting-compass"></i>
+                        </div>
+                        <h2 class="mt-4 mb-4">Serviço dois</h2>
+                        <p>Nunc id ante at sem consequat feugiat. Nulla venenatis nulla venenatis vulputate consequat.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="rounded-circle circulo centralizar shadow border border-info">
+                            <i class="fas fa-paint-roller"></i>
+                        </div>
+                        <h2 class="mt-4 mb-4">Serviço tres</h2>
+                        <p>Donec dignissim purus sed mi interdum, eu tristique odio vulputate. Nam imperdiet scelerisque.</p>
+                    </div>
+                </div>
+            </div>            
+        </div>
+
+        <div class="jumbotron descr-chamada">
+            <h2><a name="descricao" class="link"></a></h2>
+            <div class="container text-center">
+                <h4 class="lead mb-4">Quisque dignissim feugiat non neque ac interdum.</h4>
+                <h2 class="display-4 mb-4">Etiam sem odio, pharetra quis tempus vel, molestie nec risus.</h2>
+                <p class="lead mb-4">Mauris vel lacus eget ex ornare posuere at nec nunc.</p>
+                <a href="#contato" class="btn btn-outline-primary btn-lg">MAIS DETALHES</a>
+            </div>
+        </div>
+
+        <div class="jumbotron contato">
+            <h2><a name="contato" class="link"></a></h2>
+            <div class="container">
+                <h2 class="display-4 mb-4 text-center">Contato</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class="mt-4 mb-4">Você tem alguma pergunta?</h2>
+                        <p>Endereço: Av. Winston Churchill</p>
+                        <p>Ligue para nós: (XX) XXXXX-XXXX</p>
+                        <p>Escreva para nós: visaotec.com@gmail.com</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" class="form-control" id="nome" placeholder="Nome completo" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Seu melhor e-mail" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="assunto">Assunto</label>
+                                <input type="text" name="assunto" class="form-control" id="assunto" placeholder="Assunto da mensagem" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="conteudo">Conteúdo</label>
+                                <textarea name="conteudo" class="form-control" id="conteudo" placeholder="Conteúdo da mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron rodape">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <h5>Visaotec</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#inicio" class="link-rodape">Home</a>
+                            </li>
+                            <li>
+                                <a href="#servicos" class="link-rodape">Serviço</a>
+                            </li>
+                            <li>
+                                <a href="#descricao" class="link-rodape">Descrição</a>
+                            </li>
+                            <li>
+                                <a href="#contato" class="link-rodape">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <h5>Contato</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="tel: XXXXXXXXXXX" class="link-rodape">(XX) XXXXX-XXXX</a>
+                            </li>
+                            <li>
+                                <a href="#contato" class="link-rodape">Av. Winston Churchill</a>
+                            </li>
+                            <li>
+                                <a href="#contato" class="link-rodape">CNPJ: XX.XXX.XXX/XXXX-XX</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4">
+                        <h5>Redes Sociais</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://www.instagram.com/visaotec" target="_blank" class="link-rodape">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/visaotec/" target="_blank" class="link-rodape">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UC5ClMRHFl8o_MAaO4w7ZYug" target="_blank" class="link-rodape">Youtube</a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/visaotec" target="_blank" class="link-rodape">Twiter</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
